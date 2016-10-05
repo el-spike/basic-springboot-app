@@ -1,3 +1,3 @@
 echo "hello"
 
-new Pipeline().generate()
+new com.elevenware.jenkins.pipelines.Pipeline().generate()
