@@ -1,5 +1,3 @@
-
-//@Library('commands') _
 pipeline {
-    echo "closure called"
+    foo('bar')
 }
