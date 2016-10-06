@@ -2,7 +2,8 @@ node {
    def mvnHome
    stage('Checkout') { // for display purposes
       // Get some code from a GitHub repository
-      scm.checkout
+        checkout scm
+
       //git url: 'git@github.com:el-spike/basic-springboot-app.git', credentialsId: '9af674bb-7bea-4eee-9332-17bd93dffb14'
    }
    stage('Build-test-publish') {
