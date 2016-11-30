@@ -1,1 +1,3 @@
-basicPipeline()
+basicPipeline() {
+  role: 'foo'
+}
