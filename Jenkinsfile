@@ -1,3 +1,3 @@
-basicPipeline() {
+githubFlowPipeline() {
   role: 'foo'
 }
