@@ -1,3 +1,1 @@
-pipeline {
-  flow('github')
-}
+basicPipeline()
