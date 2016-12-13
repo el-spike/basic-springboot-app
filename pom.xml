@@ -20,6 +20,18 @@
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
+	<distributionManagement>
+		<repository>
+			<id>atg</id>
+			<name>Thomas Cook Online Releases</name>
+			<url>file:///dev/null</url>
+		</repository>
+		<snapshotRepository>
+			<id>atg</id>
+			<name>Thomas Cook Online Snapshots</name>
+			<url>file:///dev/null</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
