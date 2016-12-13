@@ -24,12 +24,12 @@
 		<repository>
 			<id>atg</id>
 			<name>Thomas Cook Online Releases</name>
-			<url>file:///dev/null</url>
+			<url>file:///tmp</url>
 		</repository>
 		<snapshotRepository>
 			<id>atg</id>
 			<name>Thomas Cook Online Snapshots</name>
-			<url>file:///dev/null</url>
+			<url>file:///tmp</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<dependencies>
