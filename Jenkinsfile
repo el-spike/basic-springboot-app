@@ -1,4 +1,4 @@
-runPipeline('githubflow') {
+runPipeline('simpleFlow') {
   appName = 'basic-springboot-app'
   role = 'basic-spring'
   platform = 'java'
