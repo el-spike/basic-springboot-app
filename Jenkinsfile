@@ -1,4 +1,4 @@
-runPipeline('simpleFlow') {
+runPipeline('simplePipeline') {
   appName = 'basic-springboot-app'
   role = 'basic-spring'
   platform = 'java'
