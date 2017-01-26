@@ -5,8 +5,9 @@
   cookbookName = 'tc-j2'
 }*/
 
-node {
-  stage('buiold') {
+stage('buiold') {
+  node {
+  
     echo 'hello'
   }
 }
