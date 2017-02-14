@@ -3,4 +3,5 @@ runPipeline('simplePipeline') {
   role = 'basic-spring'
   platform = 'java'
   cookbookName = 'tc-j2'
+  chefRepoUri = 'git@github.com:ThomasCookOnline/chef-repo'
 }
