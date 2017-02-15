@@ -1,3 +1,5 @@
+echo "ENV ${env.BUILD_NUMBER}"
+
 runPipeline('githubflow') {
   appName = 'basic-springboot-app'
   role = 'basic-spring'
@@ -10,4 +12,3 @@ runPipeline('githubflow') {
 
 }
 
-echo "ENV ${env.BUILD_NUMBER}"
