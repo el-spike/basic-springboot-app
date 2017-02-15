@@ -1,4 +1,4 @@
-echo "ENV ${env.BUILD_NUMBER}"
+echo "SCM $scm"
 
 runPipeline('githubflow') {
   appName = 'basic-springboot-app'
