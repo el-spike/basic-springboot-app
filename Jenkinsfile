@@ -10,4 +10,4 @@ runPipeline('githubflow') {
 
 }
 
-echo "ENV ${env.environment}"
+echo "ENV ${env.BUILD_NUMBER}"
