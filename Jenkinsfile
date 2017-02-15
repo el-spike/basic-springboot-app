@@ -10,4 +10,4 @@ runPipeline('githubflow') {
 
 }
 
-echo "ENV ${env}"
+echo "ENV ${env.environment}"
