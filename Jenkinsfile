@@ -5,7 +5,7 @@ runPipeline('githubflow') {
   cookbookName = 'tc-j2'
   chefRepo {
         uri = 'git@github.com:ThomasCookOnline/chef-repo'
-        credentials = '02806983-27ce-4955-a145-b977fb7c0a10'
+        credentials = '9af674bb-7bea-4eee-9332-17bd93dffb14'
   }
 
 }
