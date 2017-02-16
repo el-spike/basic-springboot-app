@@ -1,4 +1,4 @@
-echo "SCM ${scm.hash}"
+echo "SCM ${scm.methods}"
 
 runPipeline('githubflow') {
   appName = 'basic-springboot-app'
