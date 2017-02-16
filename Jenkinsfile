@@ -1,6 +1,6 @@
 node {
   gitCommit = sh(returnStdout: true, script: 'git rev-parse HEAD').trim()
-  //shortCommit = gitCommit.take(6)
+  shortCommit = gitCommit.take(6)
   //echo "SHORT $shortCommit"
 }
 
