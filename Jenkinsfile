@@ -1,7 +1,7 @@
 runPipeline('githubflow') {
   appName = 'basic-springboot-app'
   role = 'basic-spring'
-  platform = 'java'
+  platform = 'maven'
   cookbookName = 'tc-canary'
   cookbookDir = 'site-cookbooks/tc-canary'
   chefRepo {
