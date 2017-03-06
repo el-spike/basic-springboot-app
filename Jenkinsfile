@@ -1,6 +1,6 @@
 runPipeline('githubflow') {
   appName = 'basic-springboot-app'
-  role = 'basic-spring'
+  role = 'canary'
   platform = 'maven'
   cookbookName = 'tc-canary'
   cookbookDir = 'site-cookbooks/tc-canary'
@@ -10,4 +10,3 @@ runPipeline('githubflow') {
   }
 
 }
-
